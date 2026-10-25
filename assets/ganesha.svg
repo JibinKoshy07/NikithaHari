@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 252" width="260" height="252" role="img" aria-label="Lord Ganesha">
+  <defs>
+    <radialGradient id="gHalo" cx="50%" cy="52%" r="50%">
+      <stop offset="0%"   stop-color="#F7E6B4" stop-opacity=".85"/>
+      <stop offset="55%"  stop-color="#F3E4BC" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#F3E4BC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#E7CE84"/>
+      <stop offset="45%"  stop-color="#C9A227"/>
+      <stop offset="100%" stop-color="#9E7A18"/>
+    </linearGradient>
+    <linearGradient id="gSkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#FFFDF7"/>
+      <stop offset="100%" stop-color="#F7EBD5"/>
+    </linearGradient>
+    <path id="gPetal" d="M0 -124 C 8 -116 8 -110 0 -104 C -8 -110 -8 -116 0 -124 Z"
+          fill="#F3E4BC" stroke="#C9A227" stroke-width="1.1"/>
+  </defs>
+
+  <g>
+    <circle cx="130" cy="150" r="66" fill="url(#gHalo)"/>
+
+    <!-- torana arch -->
+    <path d="M4 238 L4 204 A126 126 0 0 1 256 204 L256 238"
+          fill="none" stroke="url(#gGold)" stroke-width="2.6"/>
+    <path d="M30 238 L30 204 A100 100 0 0 1 230 204 L230 238"
+          fill="none" stroke="#C9A227" stroke-width="1.2" opacity=".85"/>
+    <g transform="translate(130,204)">
+      <use href="#gPetal"/>
+      <use href="#gPetal" transform="rotate(-12)"/>
+      <use href="#gPetal" transform="rotate(12)"/>
+      <use href="#gPetal" transform="rotate(-24)"/>
+      <use href="#gPetal" transform="rotate(24)"/>
+      <use href="#gPetal" transform="rotate(-36)"/>
+      <use href="#gPetal" transform="rotate(36)"/>
+      <use href="#gPetal" transform="rotate(-48)"/>
+      <use href="#gPetal" transform="rotate(48)"/>
+      <use href="#gPetal" transform="rotate(-60)"/>
+      <use href="#gPetal" transform="rotate(60)"/>
+      <use href="#gPetal" transform="rotate(-72)"/>
+      <use href="#gPetal" transform="rotate(72)"/>
+      <use href="#gPetal" transform="rotate(-84)"/>
+      <use href="#gPetal" transform="rotate(84)"/>
+    </g>
+
+    <!-- kalash finial -->
+    <path d="M122 80 q8 -13 16 0 q-8 8 -16 0 Z" fill="url(#gGold)"/>
+    <circle cx="130" cy="74" r="4.6" fill="url(#gGold)"/>
+    <circle cx="130" cy="67" r="1.9" fill="#C9A227"/>
+
+    <!-- ears -->
+    <path d="M102 128 C 80 126 66 140 68 156 C 70 172 88 179 104 171 Z"
+          fill="url(#gSkin)" stroke="#7A1D2B" stroke-width="1.7"/>
+    <path d="M158 128 C 180 126 194 140 192 156 C 190 172 172 179 156 171 Z"
+          fill="url(#gSkin)" stroke="#7A1D2B" stroke-width="1.7"/>
+    <path d="M78 150 C 74 141 76 134 82 130" fill="none" stroke="#C9A227" stroke-width="1.2" opacity=".8"/>
+    <path d="M182 150 C 186 141 184 134 178 130" fill="none" stroke="#C9A227" stroke-width="1.2" opacity=".8"/>
+
+    <!-- face -->
+    <path d="M130 116 C 151 116 161 130 161 148 C 161 166 147 176 130 176 C 113 176 99 166 99 148 C 99 130 109 116 130 116 Z"
+          fill="url(#gSkin)" stroke="#7A1D2B" stroke-width="1.9"/>
+
+    <!-- crown -->
+    <path d="M105 120 q25 -9 50 0 l0 -8 q-25 -8 -50 0 Z" fill="url(#gGold)" stroke="#9E7A18" stroke-width=".8"/>
+    <path d="M114 114 L130 88 L146 114 Z" fill="#F3E4BC" stroke="#C9A227" stroke-width="1.4"/>
+    <path d="M119 107 h22 M123 100 h14" fill="none" stroke="#C9A227" stroke-width="1.1"/>
+    <circle cx="130" cy="85" r="3.4" fill="url(#gGold)"/>
+
+    <!-- tilak, brows, eyes -->
+    <path d="M130 126 v8" fill="none" stroke="#7A1D2B" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="130" cy="139" r="2.2" fill="#7A1D2B"/>
+    <path d="M111 141 q8 -6 16 -1 M133 140 q8 -5 16 1" fill="none" stroke="#7A1D2B"
+          stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M112 149 q7 -6 14 0 q-7 6 -14 0 Z" fill="#5E1420"/>
+    <path d="M134 149 q7 -6 14 0 q-7 6 -14 0 Z" fill="#5E1420"/>
+
+    <!-- tusks -->
+    <path d="M118 169 c-5 3 -8 8 -9 13 M142 169 c5 3 8 8 9 13"
+          fill="none" stroke="#C9A227" stroke-width="2.1" stroke-linecap="round"/>
+
+    <!-- trunk -->
+    <path d="M130 158 C 128 168 120 176 114 184 C 109 191 112 199 120 197"
+          fill="none" stroke="#7A1D2B" stroke-width="3.1" stroke-linecap="round"/>
+    <path d="M120 197 c5 -1 8 -6 5 -10" fill="none" stroke="#7A1D2B"
+          stroke-width="2.4" stroke-linecap="round"/>
+
+    <!-- body -->
+    <path d="M130 176 C 106 176 96 192 98 204 C 100 213 110 218 130 218 C 150 218 160 213 162 204 C 164 192 154 176 130 176 Z"
+          fill="url(#gSkin)" stroke="#7A1D2B" stroke-width="1.9"/>
+    <path d="M130 182 C 116 182 108 192 109 202 C 110 210 118 214 130 214 C 142 214 150 210 151 202 C 152 192 144 182 130 182 Z"
+          fill="#F3E4BC" opacity=".6"/>
+    <path d="M100 206 q30 10 60 0" fill="none" stroke="#C9A227" stroke-width="1.4" opacity=".9"/>
+    <circle cx="130" cy="197" r="2" fill="none" stroke="#7A1D2B" stroke-width="1.2"/>
+    <path d="M130 197 c2 -2 4 0 3 2" fill="none" stroke="#7A1D2B" stroke-width="1.1" stroke-linecap="round"/>
+
+    <!-- arms and hands -->
+    <path d="M104 184 C 96 192 102 202 116 204" fill="none" stroke="#7A1D2B" stroke-width="2.3" stroke-linecap="round"/>
+    <path d="M156 184 C 164 192 158 202 144 204" fill="none" stroke="#7A1D2B" stroke-width="2.3" stroke-linecap="round"/>
+    <ellipse cx="117" cy="204" rx="5.2" ry="3.6" fill="#F3E4BC" stroke="#7A1D2B" stroke-width="1.3"/>
+    <ellipse cx="143" cy="204" rx="5.2" ry="3.6" fill="#F3E4BC" stroke="#7A1D2B" stroke-width="1.3"/>
+    <path d="M100 182 C 86 180 78 172 78 164" fill="none" stroke="#7A1D2B" stroke-width="2.3" stroke-linecap="round"/>
+    <path d="M160 182 C 174 180 182 172 182 164" fill="none" stroke="#7A1D2B" stroke-width="2.3" stroke-linecap="round"/>
+
+    <!-- lotus in left hand -->
+    <g transform="translate(76,158)">
+      <path d="M0 10 c-7 -3 -10 -8 -9 -14 c6 1 9 7 9 14 Z" fill="#F3E4BC" stroke="#C9A227" stroke-width="1"/>
+      <path d="M0 10 c7 -3 10 -8 9 -14 c-6 1 -9 7 -9 14 Z" fill="#F3E4BC" stroke="#C9A227" stroke-width="1"/>
+      <path d="M0 10 c-4 -7 -4 -14 0 -19 c4 5 4 12 0 19 Z" fill="#FFFDF7" stroke="#C9A227" stroke-width="1"/>
+    </g>
+
+    <!-- modak in right hand -->
+    <circle cx="183" cy="159" r="5.6" fill="#F3E4BC" stroke="#C9A227" stroke-width="1.1"/>
+    <path d="M183 153 c1.4 2 1.4 4 0 5.6 c-1.4 -1.6 -1.4 -3.6 0 -5.6 Z" fill="#C9A227"/>
+
+    <!-- lotus pedestal -->
+    <path d="M92 220 q38 -10 76 0" fill="none" stroke="#C9A227" stroke-width="1.8"/>
+    <path d="M130 234 C 123 228 123 221 130 216 C 137 221 137 228 130 234 Z"
+          fill="#F3E4BC" stroke="#C9A227" stroke-width="1.1"/>
+    <g>
+      <path d="M118 233 C 110 228 108 222 113 217 C 119 221 121 227 118 233 Z"
+            fill="#F3E4BC" stroke="#C9A227" stroke-width="1.1"/>
+      <path d="M106 231 C 97 228 93 223 96 218 C 103 220 107 225 106 231 Z"
+            fill="#F3E4BC" stroke="#C9A227" stroke-width="1.1"/>
+    </g>
+    <g transform="translate(260,0) scale(-1,1)">
+      <path d="M118 233 C 110 228 108 222 113 217 C 119 221 121 227 118 233 Z"
+            fill="#F3E4BC" stroke="#C9A227" stroke-width="1.1"/>
+      <path d="M106 231 C 97 228 93 223 96 218 C 103 220 107 225 106 231 Z"
+            fill="#F3E4BC" stroke="#C9A227" stroke-width="1.1"/>
+    </g>
+
+    <!-- floral accents -->
+    <circle cx="46" cy="132" r="2.4" fill="#C9A227" opacity=".7"/>
+    <circle cx="214" cy="132" r="2.4" fill="#C9A227" opacity=".7"/>
+    <circle cx="36" cy="166" r="1.8" fill="#7A1D2B" opacity=".45"/>
+    <circle cx="224" cy="166" r="1.8" fill="#7A1D2B" opacity=".45"/>
+    <circle cx="58" cy="104" r="1.6" fill="#C9A227" opacity=".55"/>
+    <circle cx="202" cy="104" r="1.6" fill="#C9A227" opacity=".55"/>
+  </g>
+</svg>
