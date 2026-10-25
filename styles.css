@@ -204,14 +204,17 @@ body::before{
 .names__one,
 .names__two{
   font-family:"Great Vibes", "Cormorant Garamond", cursive;
-  font-size:clamp(46px,10.5vw,92px);
-  line-height:1.02;
+  font-size:clamp(40px,8.6vw,78px);
+  line-height:1.3;
   background:linear-gradient(180deg,#9C2735 0%, var(--maroon) 55%, #5E1420 100%);
   -webkit-background-clip:text;
   background-clip:text;
   color:transparent;
   -webkit-text-fill-color:transparent;
-  padding:0 .06em .08em;
+  /* Great Vibes has tall ascenders and swashes. With background-clip:text the
+     gradient only paints inside the padding box, so the glyph box must stay
+     inside it or the tops of the capitals render invisible. */
+  padding:.16em .1em .14em;
   text-shadow:0 1px 0 rgba(255,255,255,.5);
 }
 .names__amp{
